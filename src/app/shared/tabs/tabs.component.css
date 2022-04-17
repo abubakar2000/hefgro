@@ -1,0 +1,48 @@
+.tabsContainer {
+    min-height: 8vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    background: linear-gradient(to right, rgb(255, 198, 186), rgb(165, 192, 255));
+}
+
+.verticalCentrize {
+    display: flex;
+    align-items: center;
+}
+
+.linearize {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.linearize div {
+    cursor: pointer;
+    margin-left: 20pt;
+    margin-right: 20pt;
+    transition: 0.2s;
+}
+
+.linearize div:hover {
+    color: blue;
+}
+
+.spaceEvenly {
+    justify-content: space-between;
+}
+
+.partnerBtn {
+    padding-left: 20pt;
+    padding-right: 20pt;
+    padding-top: 5pt;
+    padding-bottom: 5pt;
+    border: 2pt solid white;
+    border-radius: 20pt;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.partnerBtn:hover {
+    cursor: pointer;
+    box-shadow: 0pt 0pt 10pt orangered;
+}
