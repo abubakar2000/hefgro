@@ -8,6 +8,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { TabsComponent } from './shared/tabs/tabs.component';
 import { LandingPageComponent } from './pages/landing-page/landing-page.component';
 import { CarouselComponent } from './shared/carousel/carousel.component';
+import { BubblesComponent } from './shared/bubbles/bubbles.component';
+import { Carousel2Component } from './shared/carousel2/carousel2.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { CarouselComponent } from './shared/carousel/carousel.component';
     NavigatorComponent,
     TabsComponent,
     LandingPageComponent,
-    CarouselComponent
+    CarouselComponent,
+    BubblesComponent,
+    Carousel2Component
   ],
   imports: [
     BrowserModule,
