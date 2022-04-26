@@ -1,29 +1,51 @@
-.carouselItem {
+.carousel {
     width: 100%;
-    min-height: 70vh;
-    padding: 30pt;
+    padding-left: 30pt;
+    padding-right: 30pt;
 }
 
 .carouselBanner {
     padding-top: 20pt;
-    height: 100%;
+    height: min-content;
     width: 100%;
     background: linear-gradient(to bottom, rgb(152, 193, 213), rgb(231, 231, 231), rgb(152, 193, 213));
     border-bottom-left-radius: 200pt;
     border-top-right-radius: 200pt;
-    border-top-left-radius: 50pt;
-    border-bottom-right-radius: 50pt;
+    border-top-left-radius: 40pt;
+    border-bottom-right-radius: 40pt;
     box-shadow: 0pt 0pt 30pt rgb(253, 191, 177);
 }
 
-.bannerLowerContainer {
-    height: 80%;
+.topSection {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 3%;
+    padding-right: 10%;
 }
-.bannerUpperContainer {
-    height: 20%;
-    text-align: center;
-    padding-top: 3vh;
-    padding-bottom: 3vh;
+
+.bottomSection {
+    height: min-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 20pt;
+    padding-left: 20pt;
+    padding-bottom: 30pt;
+}
+
+.carouselItem {
+    height: 30vh;
+    width: 100%;
+    padding: 10pt;
+}
+.carouselItem div{
+    height: 100%;
+    width: 100%;
+    border-radius: 15pt;
+    box-shadow: 0px 0px 30px rgb(219, 101, 83);
 }

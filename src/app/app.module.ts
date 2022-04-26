@@ -10,6 +10,7 @@ import { LandingPageComponent } from './pages/landing-page/landing-page.componen
 import { CarouselComponent } from './shared/carousel/carousel.component';
 import { BubblesComponent } from './shared/bubbles/bubbles.component';
 import { Carousel2Component } from './shared/carousel2/carousel2.component';
+import { WhyPartOfHefgrowComponent } from './shared/why-part-of-hefgrow/why-part-of-hefgrow.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { Carousel2Component } from './shared/carousel2/carousel2.component';
     LandingPageComponent,
     CarouselComponent,
     BubblesComponent,
-    Carousel2Component
+    Carousel2Component,
+    WhyPartOfHefgrowComponent
   ],
   imports: [
     BrowserModule,

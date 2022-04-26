@@ -1,0 +1,24 @@
+.bubbleContainer {
+    padding: 20pt;
+    width: 100%;
+    ;
+    box-shadow: 0px 0px 30px rgb(220, 220, 220);
+    border-radius: 10pt;
+}
+
+li {
+    font-size: x-large;
+    color: rgb(62, 62, 231);
+    margin-top: 10pt;
+    margin-bottom: 10pt;
+}
+
+.personImage {
+    height: 300pt;
+    width: 300pt;
+    border-top-left-radius: 80pt;
+    border-bottom-right-radius: 80pt;
+    border-top-right-radius: 20pt;
+    border-bottom-left-radius: 20pt;
+    border: 2px solid blue;
+}
