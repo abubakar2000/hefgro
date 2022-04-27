@@ -21,6 +21,11 @@ import { TopRecommendationsComponent } from './shared/top-recommendations/top-re
 import { FlexBannerComponent } from './shared/flex-banner/flex-banner.component';
 import { BestSellingComponent } from './shared/best-selling/best-selling.component';
 import { JoinMailingListComponent } from './shared/join-mailing-list/join-mailing-list.component';
+import { VendorListComponent } from './shared/vendor-list/vendor-list.component';
+import { FooterComponent } from './shared/footer/footer.component';
+import { EcommCategoryPageComponent } from './pages/ecomm-category-page/ecomm-category-page.component';
+import { BannerSecondaryComponent } from './shared/banner-secondary/banner-secondary.component';
+import { SpecificCategoryMenuComponent } from './shared/specific-category-menu/specific-category-menu.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +46,12 @@ import { JoinMailingListComponent } from './shared/join-mailing-list/join-mailin
     TopRecommendationsComponent,
     FlexBannerComponent,
     BestSellingComponent,
-    JoinMailingListComponent
+    JoinMailingListComponent,
+    VendorListComponent,
+    FooterComponent,
+    EcommCategoryPageComponent,
+    BannerSecondaryComponent,
+    SpecificCategoryMenuComponent
   ],
   imports: [
     BrowserModule,
