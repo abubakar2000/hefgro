@@ -27,6 +27,7 @@ import { EcommCategoryPageComponent } from './pages/ecomm-category-page/ecomm-ca
 import { BannerSecondaryComponent } from './shared/banner-secondary/banner-secondary.component';
 import { SpecificCategoryMenuComponent } from './shared/specific-category-menu/specific-category-menu.component';
 import { ProductsListComponent } from './shared/products-list/products-list.component';
+import { ShoppingCartPageComponent } from './shopping-cart-page/shopping-cart-page.component';
 
 @NgModule({
   declarations: [
@@ -53,7 +54,8 @@ import { ProductsListComponent } from './shared/products-list/products-list.comp
     EcommCategoryPageComponent,
     BannerSecondaryComponent,
     SpecificCategoryMenuComponent,
-    ProductsListComponent
+    ProductsListComponent,
+    ShoppingCartPageComponent
   ],
   imports: [
     BrowserModule,
