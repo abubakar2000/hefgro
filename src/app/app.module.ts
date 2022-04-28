@@ -27,6 +27,10 @@ import { EcommCategoryPageComponent } from './pages/ecomm-category-page/ecomm-ca
 import { BannerSecondaryComponent } from './shared/banner-secondary/banner-secondary.component';
 import { SpecificCategoryMenuComponent } from './shared/specific-category-menu/specific-category-menu.component';
 import { ProductsListComponent } from './shared/products-list/products-list.component';
+import { ProductsListByAllCategoriesComponent } from './shared/products-list-by-all-categories/products-list-by-all-categories.component';
+import { EcomCategoryListViewComponent } from './pages/ecom-category-list-view/ecom-category-list-view.component';
+import { CategoryListViewComponent } from './shared/category-list-view/category-list-view.component';
+import { EcommSearchPageComponent } from './pages/ecomm-search-page/ecomm-search-page.component';
 import { ShoppingCartPageComponent } from './shopping-cart-page/shopping-cart-page.component';
 
 @NgModule({
@@ -55,6 +59,10 @@ import { ShoppingCartPageComponent } from './shopping-cart-page/shopping-cart-pa
     BannerSecondaryComponent,
     SpecificCategoryMenuComponent,
     ProductsListComponent,
+    ProductsListByAllCategoriesComponent,
+    EcomCategoryListViewComponent,
+    CategoryListViewComponent,
+    EcommSearchPageComponent,
     ShoppingCartPageComponent
   ],
   imports: [
