@@ -26,6 +26,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { EcommCategoryPageComponent } from './pages/ecomm-category-page/ecomm-category-page.component';
 import { BannerSecondaryComponent } from './shared/banner-secondary/banner-secondary.component';
 import { SpecificCategoryMenuComponent } from './shared/specific-category-menu/specific-category-menu.component';
+import { ProductsListComponent } from './shared/products-list/products-list.component';
 
 @NgModule({
   declarations: [
@@ -51,7 +52,8 @@ import { SpecificCategoryMenuComponent } from './shared/specific-category-menu/s
     FooterComponent,
     EcommCategoryPageComponent,
     BannerSecondaryComponent,
-    SpecificCategoryMenuComponent
+    SpecificCategoryMenuComponent,
+    ProductsListComponent
   ],
   imports: [
     BrowserModule,
