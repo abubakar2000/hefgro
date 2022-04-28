@@ -31,7 +31,8 @@ import { ProductsListByAllCategoriesComponent } from './shared/products-list-by-
 import { EcomCategoryListViewComponent } from './pages/ecom-category-list-view/ecom-category-list-view.component';
 import { CategoryListViewComponent } from './shared/category-list-view/category-list-view.component';
 import { EcommSearchPageComponent } from './pages/ecomm-search-page/ecomm-search-page.component';
-import { ShoppingCartPageComponent } from './shopping-cart-page/shopping-cart-page.component';
+import { SingleProductPageComponent } from './single-product-page/single-product-page.component';
+
 
 @NgModule({
   declarations: [
@@ -63,7 +64,7 @@ import { ShoppingCartPageComponent } from './shopping-cart-page/shopping-cart-pa
     EcomCategoryListViewComponent,
     CategoryListViewComponent,
     EcommSearchPageComponent,
-    ShoppingCartPageComponent
+    SingleProductPageComponent
   ],
   imports: [
     BrowserModule,
