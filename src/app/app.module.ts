@@ -32,6 +32,7 @@ import { EcomCategoryListViewComponent } from './pages/ecom-category-list-view/e
 import { CategoryListViewComponent } from './shared/category-list-view/category-list-view.component';
 import { EcommSearchPageComponent } from './pages/ecomm-search-page/ecomm-search-page.component';
 import { SingleProductPageComponent } from './single-product-page/single-product-page.component';
+import { SingleProductComponent } from './single-product/single-product.component';
 
 
 @NgModule({
@@ -64,7 +65,9 @@ import { SingleProductPageComponent } from './single-product-page/single-product
     EcomCategoryListViewComponent,
     CategoryListViewComponent,
     EcommSearchPageComponent,
-    SingleProductPageComponent
+    SingleProductPageComponent,
+    SingleProductComponent,
+    
   ],
   imports: [
     BrowserModule,

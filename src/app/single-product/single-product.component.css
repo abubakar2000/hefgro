@@ -1,0 +1,82 @@
+.card {
+    flex-direction: row;
+    
+    margin-left: 40px;
+  }
+  .card-title {
+    font-weight: bold;
+  }
+  .card img {
+    width: 30%;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: calc(0.25rem - 1px);
+  }
+  @media only screen and (max-width: 768px) {
+    a {
+      display: none;
+    }
+    .card-body {
+      padding: 0.5em 1.2em;
+    }
+    .card-body .card-text {
+      margin: 0;
+    }
+    .card img {
+      width: 80%;
+      height: 50%;
+    }
+  }
+  @media only screen and (max-width: 1500px ) {
+    .card img {
+      width: 60%;
+    }
+    
+  }
+
+  @media only screen and (max-height: 100px ) {
+    .card img {
+      height: 50%;
+    }
+    
+  }
+
+  .transparentbar {
+    background-repeat:no-repeat;
+    cursor:pointer;
+    outline:none;
+    border: 6px black;
+    box-shadow:none; 
+    background-image: none;
+    
+    background-color: transparent;
+    background: transparent;
+    border-color: gray;
+    width: 100%;
+}
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    }
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 260px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff; /* here */
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid black;
+    border: 1px solid black;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
