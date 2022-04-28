@@ -1,0 +1,12 @@
+.center {
+    display: flex;
+    justify-content: center;
+    }
+    .box {
+        border: 5px solid #3ee61c;
+        padding-left: 20px;
+        border-radius: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 10px;
+        }    
