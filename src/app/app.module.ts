@@ -35,6 +35,7 @@ import { SingleProductPageComponent } from './single-product-page/single-product
 import { SingleProductComponent } from './single-product/single-product.component';
 import { DetailsComponent } from './details/details.component';
 import { ReviewComponent } from './review/review.component';
+import { BillingDetailComponent } from './billing-detail/billing-detail.component';
 
 
 @NgModule({
@@ -71,6 +72,7 @@ import { ReviewComponent } from './review/review.component';
     SingleProductComponent,
     DetailsComponent,
     ReviewComponent,
+    BillingDetailComponent,
     
   ],
   imports: [
