@@ -1,0 +1,14 @@
+.box{
+        margin-left: 40px;
+        margin-top: 10px;
+}
+.checked {
+    color: orange;
+  }
+
+  .center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    }
+   

@@ -34,6 +34,7 @@ import { EcommSearchPageComponent } from './pages/ecomm-search-page/ecomm-search
 import { SingleProductPageComponent } from './single-product-page/single-product-page.component';
 import { SingleProductComponent } from './single-product/single-product.component';
 import { DetailsComponent } from './details/details.component';
+import { ReviewComponent } from './review/review.component';
 
 
 @NgModule({
@@ -69,6 +70,7 @@ import { DetailsComponent } from './details/details.component';
     SingleProductPageComponent,
     SingleProductComponent,
     DetailsComponent,
+    ReviewComponent,
     
   ],
   imports: [
